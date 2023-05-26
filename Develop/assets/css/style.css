@@ -19,7 +19,8 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/*removed multiple selectors as there is only one element with class seo
+Changed color */
 .header h1 .seo {
     color: #7DFFFB;
 }
