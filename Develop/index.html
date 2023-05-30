@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Made title more descriptive-->
     <title>Social Solution Services | Horiseon</title>
+  
 </head>
     <!--Semantic elements based on definitions within https://www.w3schools.com/html/html5_semantic_elements.asp -->
 <body>
     <!--Changed non-semantic <div> to semantic <header> -->
-    <header class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
+    <header>
+        <h1>Hori<span id="seo">seo</span>n</h1>
         <div>
             <ul>
                 <li>
@@ -31,22 +33,23 @@
     <!--Changed non-semantic <div> to semantic <section> -->
     <section class="content">
     <!--Changed non-semantic <div> to semantic <article> 
-        Added alt text to each img-->        
-        <article class="search-engine-optimization">
+        Added alt text to each img
+        Removed unneccessary ids and consolidated classes within CSS-->        
+        <article class="article-item">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A cluttered desktop containing a notebook with SEO written on it"/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article id="online-reputation-management" class="online-reputation-management">
+        <article class="article-item">
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A user on a laptop displaying charts and the word REPUTATION"/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article id="social-media-marketing" class="social-media-marketing">
+        <article class="article-item">
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="Six people surrounding a meeting table with various social media icons on it"/>
             <h2>Social Media Marketing</h2>
             <p>
@@ -55,23 +58,24 @@
         </article>
     </section>
     <!--Changed non-semantic <div> to semantic <aside> 
-        Added alt text to each image-->
+        Added alt text to each image
+        Consolidated extranneous div classes with benefit-team instead-->
     <aside class="benefits">
-        <div class="benefit-lead">
+        <div class="benefit-item">
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="A gear being funneled downward into a money symbol"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div class="benefit-item">
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="A lightbulb emitting waves while wearing a shirt and tie"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div class="benefit-item">
             <h3>Cost Management</h3>
             <!--Removed unneccessary closing img tag-->
             <img src="./assets/images/cost-management.png"alt="A gear surrounded by three money symbols"/>
@@ -80,9 +84,10 @@
             </p>
         </div>
     </aside>
-    <!--Changed non-semantic <div> to semantic <footer> -->
-    <footer class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    <!--Changed non-semantic <div> to semantic <footer> 
+        Removed h2 from footer-->
+    <footer>
+        <div>Made with ❤️️ by Horiseon</div>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
