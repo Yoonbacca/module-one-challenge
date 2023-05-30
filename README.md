@@ -1,5 +1,7 @@
 # Module 1 Challenge - Landing Page Code Refactoring
 
+![Alt text](/Develop/assets/images/readme-screenshot.png?raw=true "Screenshot")
+
 ## Description
 This is a simple landing page for a fictional company, Horiseon. The website was cloned from the starter code housed in https://github.com/coding-boot-camp/urban-octo-telegram.
 
